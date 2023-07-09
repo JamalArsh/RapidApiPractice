@@ -1,0 +1,57 @@
+.title {
+  height: 50px;
+  background-color: aquamarine;
+  text-align: center;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.app-container {
+  height: 90%;
+  margin: 0;
+}
+.app-sidenav {
+  width: 230px;
+}
+.app-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-links {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  column-gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: red;
+  background-color: #9be8d8;
+  a {
+    color: blue;
+  }
+}
+
+.custom-snackbar {
+  background-color: blue !important;
+  color: white;
+}
+
+// .example-container {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   background: #eee;
+// }
+// .side-nav {
+//   position: relative;
+// }

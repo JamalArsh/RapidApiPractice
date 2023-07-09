@@ -1,0 +1,21 @@
+.main {
+  padding: 0 1.5rem;
+}
+.all-forms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px 80px;
+}
+.card {
+  width: 400px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.btn {
+  background-color: aqua;
+  color: red;
+}
